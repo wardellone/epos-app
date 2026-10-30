@@ -1,57 +1,5 @@
-EPOS 1 — TERMINI D'USO / TERMS OF USE
+EPOS 1 — TERMS OF USE
 
-ITALIANO
-Venditore e assistenza: Federico — federico.neffa@gmail.com
-
-Prezzo: 25 €, una volta sola, pagati direttamente al venditore con Revolut
-(https://revolut.me/wardell) o con bonifico ceco (QR Platba, 600 CZK).
-Nessun abbonamento.
-L'acquisto concede una licenza personale perpetua per la versione 1 di Epos
-e include tutti gli aggiornamenti della versione 1 senza costi aggiuntivi.
-La versione 1 continua a funzionare anche dopo l'uscita di una versione 2.
-Chi possiede la versione 1 avrà la versione 2 con il 50% di sconto.
-
-Licenza personale per un utilizzatore, anche per uso professionale.
-Installazione consentita su più PC dello stesso utilizzatore; non è consentito
-condividere l'installer o la cartella di download con altri. Non è prevista
-attivazione o verifica online. Il software Epos resta di proprietà del titolare;
-l'acquisto concede l'uso, non trasferisce i diritti sul codice. Le licenze dei
-componenti di terze parti restano valide: questi termini non limitano i diritti
-concessi da tali licenze, compresa la modifica/sostituzione delle librerie e il
-reverse engineering necessario per il debug delle modifiche quando richiesto
-dalle loro licenze.
-
-Rimborso su richiesta entro 14 giorni dal pagamento: scrivi a
-federico.neffa@gmail.com e l'importo viene restituito con lo stesso metodo di
-pagamento. Questa offerta non limita i diritti inderogabili del consumatore.
-
-Epos produce trascrizioni che possono contenere errori: verifica il testo.
-Richiede Windows a 64 bit, un microfono funzionante e spazio per il modello.
-Non è garantita la compatibilità con ogni hardware o futura versione di Windows.
-Il pacchetto 1.0 non è firmato: Smart App Control può impedirne l'esecuzione.
-Le limitazioni si applicano nella misura consentita dalla legge e non escludono
-i diritti obbligatori del consumatore.
-
-PRIVACY
-Epos non invia audio né trascrizioni. Il modello viene scaricato da Hugging Face;
-Epos controlla su GitHub se esiste una versione più recente una volta all'avvio
-e quando premi Check updates. Queste richieste comportano dati tecnici di
-connessione, come l'indirizzo IP, verso quei servizi, che applicano le proprie
-informative. Il venditore conserva solo nome, email e data del pagamento, che
-servono a condividere la cartella di download e a gestire i rimborsi.
-Configurazione e vocabolario: %APPDATA%\EPOS\config.json. Correzioni:
-%APPDATA%\EPOS\corrections.txt. Log: %APPDATA%\EPOS\.tmp\voice_type.log.
-I nuovi log escludono il testo dettato, salvo attivazione esplicita dell'opzione
-diagnostica in Advanced. I log storici possono contenerlo; Info consente di
-cancellarli. L'audio di dettatura resta in memoria. Durante la consegna, la
-trascrizione occupa brevemente gli appunti prima che Epos ripristini il contenuto
-precedente supportato. Se questo non può essere conservato in sicurezza, Epos
-non modifica gli appunti e usa l'inserimento diretto. Windows o altri programmi
-possono sincronizzare gli appunti secondo le loro impostazioni. Epos non
-controlla questi servizi.
-Disinstallare conserva i dati personali per impostazione predefinita.
-
-ENGLISH
 Seller and support: Federico — federico.neffa@gmail.com
 
 Price: €25, paid once, directly to the seller via Revolut
