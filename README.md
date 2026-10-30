@@ -20,8 +20,8 @@ of those products or making unverified accuracy or speed comparisons.
    can also pay 600 CZK by bank transfer: ask for the QR Platba code by email.
 2. Email **federico.neffa@gmail.com** with the email address to use for
    the download.
-3. You receive access to a private OneDrive folder with the installer, its
-   SHA256 hash and the installation guide. Every version 1 update appears in
+3. You receive access to a private OneDrive folder with the installer and
+   the installation guide. Every version 1 update appears in
    the same folder. No GitHub or Microsoft account is needed.
 
 Refunds on request within 14 days of payment: write to the same address.
