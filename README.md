@@ -1,12 +1,12 @@
 # Epos: local dictation for Windows
 
-Local dictation for Windows, tuned for Italian. **€25 once. No subscription
+Local dictation for Windows. **€25 once. No subscription
 or cloud transcription. Perpetual licence for version 1, all its updates
 included.**
 
 Hold Caps Lock, speak and release. Epos transcribes on your PC and pastes
 into the active window. Personal vocabulary and corrections help with
-your terminology, while Italian scratch commands let you discard a
+your terminology, while configurable spoken commands let you discard a
 sentence before it is pasted.
 
 If you are looking for Windows dictation software without a subscription,
@@ -46,9 +46,9 @@ always wins. Select the correct field before dictating and keep it focused until
 the text appears. If the clipboard cannot be preserved safely, Epos leaves it
 unchanged and uses direct text input in the original focused field.
 
-Italian and English are the reference languages for validation. Other
-languages have no specifically verified quality guarantee. Settings and the
-welcome screen are in English.
+Choose the dictation language in Settings. Quality varies with language,
+accent, microphone and model, so try Epos with your own voice during the
+refund period. Settings and the welcome screen are in English.
 
 ## Privacy
 
@@ -100,4 +100,4 @@ Epos uses FFmpeg, PyAV and pystray under LGPL licences. Their corresponding
 sources and build recipe are available free of charge in this repository's
 [Releases](../../releases).
 
-[FAQ](FAQ.md#english-faq) · [Changelog](CHANGELOG.md)
+[FAQ](FAQ.md) · [Changelog](CHANGELOG.md)
