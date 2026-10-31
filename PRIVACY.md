@@ -1,6 +1,6 @@
 # Privacy
 
-Seller and contact: Federico — federico.neffa@gmail.com
+Seller and contact: Federico, federico.neffa@gmail.com
 
 Epos does not send audio or transcripts. Dictation runs on your PC and audio
 stays in memory. Settings/vocabulary/corrections stay in `%APPDATA%\EPOS`;

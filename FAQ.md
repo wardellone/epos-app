@@ -1,10 +1,10 @@
-# FAQ — Epos 1
+# FAQ: Epos 1
 
 **How do I buy?** Pay €25 via Revolut at https://revolut.me/wardell, or by
 Czech bank transfer (QR Platba, 600 CZK; QR sent on request). Then email
-federico.neffa@gmail.com with the address to use for the download. You get
-access to a private OneDrive folder with the installer and its updates.
-No GitHub or Microsoft account needed.
+federico.neffa@gmail.com with the email address of your Google account (any
+Gmail address is one). You get access to a private Google Drive folder with
+the installer and its updates. No GitHub or Microsoft account needed.
 
 **Why pay when Handy is free?** Handy is a good project. Epos focuses on
 simple local dictation, personal vocabulary/corrections and accessible Settings;
@@ -14,7 +14,9 @@ the €25 supports development. No claim of being more accurate or faster.
 Native 48 kHz capture is filtered and resampled. A missing saved input falls
 back to Windows default with a notice. Hold Caps Lock to dictate; it does not
 toggle capitals while Epos runs. Change it in Settings (restart required).
-Ctrl+Alt+L opens the language picker; the tray opens Settings.
+Choose the language in Settings, opened from the tray. A shortcut for the
+language picker can be set there; there is none by default. Type the keys
+joined by +, for example ctrl+shift+f11; it works as soon as you Save.
 
 **Clipboard and recipient?** Epos restores supported prior clipboard content
 after every sent paste, even when the editor cannot expose the exact insertion.
@@ -42,7 +44,7 @@ careful cleanup. Installing an update over Epos retains the profile.
 with all its updates. One user, multiple own PCs, professional use allowed. No
 activation or renewal. Version 1 keeps working after a version 2, which version
 1 owners get at 50% off. Epos checks for a newer version once at startup and
-on request; the new installer is in the same OneDrive folder. Refund on request
+on request; the new installer is in the same Google Drive folder. Refund on request
 within 14 days of payment: email federico.neffa@gmail.com.
 
 **Windows warnings and hash?** SHA256 confirms identical files, not publisher

@@ -6,8 +6,7 @@ included.**
 
 Hold Caps Lock, speak and release. Epos transcribes on your PC and pastes
 into the active window. Personal vocabulary and corrections help with
-your terminology, while configurable spoken commands let you discard a
-sentence before it is pasted.
+your terminology.
 
 If you are looking for Windows dictation software without a subscription,
 Epos is a possible alternative to Wispr Flow, Superwhisper for Windows or
@@ -18,10 +17,10 @@ of those products or making unverified accuracy or speed comparisons.
 
 1. Pay **€25** via Revolut at **https://revolut.me/wardell**. In Czechia you
    can also pay 600 CZK by bank transfer: ask for the QR Platba code by email.
-2. Email **federico.neffa@gmail.com** with the email address to use for
-   the download.
-3. You receive access to a private OneDrive folder with the installer and
-   the installation guide. Every version 1 update appears in
+2. Email **federico.neffa@gmail.com** with the email address of your
+   Google account (any Gmail address is one).
+3. You receive access to a private Google Drive folder with the installer
+   and the installation guide. Every version 1 update appears in
    the same folder. No GitHub or Microsoft account is needed.
 
 Refunds on request within 14 days of payment: write to the same address.
@@ -75,7 +74,7 @@ See the [terms](TERMS.txt).
 Epos checks this repository's `latest.json` once at startup and shows a
 notice when a newer version is available. You can also check from the tray
 or Info. Updates are not downloaded or installed automatically: get the new
-installer from your OneDrive folder and install it over the current one.
+installer from your Google Drive folder and install it over the current one.
 Your settings are kept.
 
 Version 1.0 is unsigned. SmartScreen may show a warning because the file has

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "date": "2026-10-09",
-  "notes": "Epos 1.0.0: first release.",
-  "sha256": "58130cb629e4c2af59b35db0db48736d2807b881e47b951bd12f30a56b448763"
+  "version": "1.0.1",
+  "date": "2026-10-31",
+  "notes": "Epos 1.0.1: starts without a network connection, recovers from a damaged settings file, keeps dictation out of the clipboard history, removes spoken edit commands and tidies Settings. See the changelog.",
+  "sha256": "2dba42f066c44630f1ace1563b55f5865989c9fde7ac8abf3da07654a2bc909c"
 }
