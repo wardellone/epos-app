@@ -37,7 +37,9 @@ CPU transcription can take several seconds; it is not instantaneous.
 
 Install Epos, wait for Ready and complete the welcome screen. Hold Caps Lock,
 speak and release. Caps Lock does not toggle capital letters while Epos is
-running. Change the hotkey in Settings, opened from the tray icon.
+running, except in windows running as administrator, where it works normally
+and Epos turns it off when you leave them. Change the hotkey in Settings,
+opened from the tray icon.
 
 Epos restores supported prior clipboard content after every sent paste, even
 when the target editor cannot expose the exact insertion. A newer user copy
@@ -86,7 +88,7 @@ an ordinary installation requirement.
 To check your download in PowerShell:
 
 ```powershell
-Get-FileHash .\Epos-Setup-1.0.0.exe -Algorithm SHA256
+Get-FileHash .\Epos-Setup-1.0.1.exe -Algorithm SHA256
 ```
 
 Compare the result with the `sha256` value in [latest.json](latest.json).
