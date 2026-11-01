@@ -20,6 +20,9 @@
 - Spoken edit commands such as "scratch that" have been removed: what you
   say is always typed as said, and no sentence is ever deleted by a phrase
   that happened to match a command.
+- Punctuation names such as "comma" or "period" are typed as words instead of
+  becoming symbols, so sentences that use them as ordinary words stay intact.
+  Commas, periods and question marks come from your pauses and intonation.
 - Filler words no longer leave stray commas or periods.
 - The final page of the installer shows the correct settings folder.
 - The Ready indicator always appears on the laptop's own screen, even when
@@ -29,7 +32,8 @@
 - Caps Lock: if it is on when Epos starts, after you unlock Windows or when you
   leave a window run as administrator, Epos turns it off. Unplugging or
   reconnecting a keyboard no longer closes Epos, and Epos recovers if Windows
-  removes its keyboard hook. In windows run as administrator Caps Lock works
+  removes its keyboard hook; if Caps Lock gets through meanwhile, Epos turns it
+  off again. In windows run as administrator Caps Lock works
   normally and Epos says it cannot dictate there.
 - A recording is discarded if the PC locks or goes to sleep during the hold,
   and one hold now ends by itself after 10 minutes (a warning shows at 9).

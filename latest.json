@@ -2,5 +2,5 @@
   "version": "1.0.1",
   "date": "2026-11-01",
   "notes": "Epos 1.0.1: starts without a network connection, recovers from a damaged settings file, keeps dictation out of the clipboard history, handles Caps Lock, administrator windows, lock and sleep safely, follows microphones you connect later, adds Copy last dictation and Copy support info, and tidies Settings and the installer. See the changelog.",
-  "sha256": "6fba7ddc1344414de9960d97cab89eeb375ae3a90c9de8f806adccd0ffb30372"
+  "sha256": "0f8765d4a2e5b69c30741609930a3af9ecf021f549ed9b1dc5c064e84ac7ccd0"
 }

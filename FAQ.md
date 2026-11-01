@@ -92,6 +92,9 @@ Investigate actual Defender detections separately.
 - **"Scratch that" is typed as said.** Spoken edit commands were removed in 1.0.1,
   because natural pauses rarely made them work and they could delete text by
   mistake. Fix text with your keyboard.
+- **"Comma" or "period" is typed as a word.** Epos has no spoken punctuation:
+  commas, periods and question marks come from your pauses and intonation, and
+  the names of symbols stay words, since they are ordinary words too.
 - **The first download says it is offline or keeps failing at work.** A firewall
   or proxy that inspects secure connections blocks the download from
   huggingface.co, and Epos does not use the Windows certificate store. Download
