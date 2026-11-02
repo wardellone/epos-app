@@ -29,6 +29,17 @@ delivery, the text is not inserted and a notice appears; for 2 minutes you can
 still copy it with Copy last dictation in the tray menu. Changes of tab or field
 inside the same window are not detected, so keep the intended field focused
 until the text appears, and always check the recipient and transcript.
+In some editors (VS Code, for example) Epos cannot confirm the paste: your
+earlier clipboard then returns a few seconds after the text appears, and a new
+press in those seconds is ignored. Wait about 5 seconds before pasting something
+you copied earlier or dictating again. Epos then says "Dictation may be
+incomplete": check the field, and if the text is missing, use Copy last
+dictation. If you click a button, list or menu
+instead of a text field, Epos refuses with "Click the text field where you want
+to dictate, then hold the key again." and keeps the text in Copy last dictation.
+If it cannot give your previous clipboard back, the notice says so ("Epos
+couldn't restore your previous clipboard" or "clipboard recovery failed"): copy
+important text again.
 
 **How long can I dictate, and what about Bluetooth headsets?** One hold can last
 up to 10 minutes: the pill shows "1 min left" from minute 9, and at 10 minutes
@@ -36,9 +47,11 @@ Epos stops and inserts what it heard (press again to continue). If the PC
 locks or goes to sleep while you hold the key, that recording is discarded.
 Epos keeps the microphone open while it runs, so the first word of a sentence is
 never cut off. Windows therefore shows the microphone as in use, and a Bluetooth
-headset stays in its phone-quality headset mode while Epos is open. For music or
-calls in good quality use the laptop's microphone or a USB one, or quit Epos from
-the tray.
+headset stays in its phone-quality headset mode while Epos is open. For good
+audio, choose the laptop's microphone or a USB one in Settings > General >
+Microphone: with "Windows default", Epos follows the headset as soon as Windows
+makes it the default. You can also quit Epos from the tray when you want music
+or calls in good quality.
 
 **Languages and hardware?** Epos uses Whisper models and lets you choose the
 dictation language in Settings. Quality varies with language, accent, microphone
@@ -105,5 +118,9 @@ Investigate actual Defender detections separately.
   open the tray menu and choose Copy last dictation within 2 minutes, then paste.
 - **Something else is wrong.** In Settings, open Info and choose Copy support
   info, then paste it into your email. It holds the version, the Windows build,
-  the microphone and processor Epos uses and status codes, never dictated text,
-  vocabulary or corrections.
+  the processor, memory, Smart App Control state, the model loaded, the
+  microphone and status codes, plus counts for the current session (dictations,
+  nothing inserted and why, delivery results per program, transcription speed,
+  speech at the start and end of holds, missing audio), never dictated text,
+  vocabulary or corrections. Before you send it, delete any personal name from
+  the Microphone line.

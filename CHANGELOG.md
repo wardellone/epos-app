@@ -62,6 +62,23 @@
   failures are logged by type and code, and Info has Copy support info (version,
   Windows build, microphone, status; never dictated text, vocabulary or
   corrections).
+- Delivery: if a button, list or menu has the focus, Epos says "Click the text
+  field where you want to dictate, then hold the key again." and keeps the text
+  in Copy last dictation. Text inserted by direct input is also kept there for
+  2 minutes, since its arrival cannot be confirmed. A failed clipboard restore
+  is reported.
+- Known credit lines that Whisper sometimes invents from silence (such as
+  subtitle attributions) are dropped instead of typed.
+- Copy support info also shows the processor, memory, Smart App Control state,
+  the model loaded and counts for the session; the log notes which program
+  received each dictation, never any text.
+- The recording pill costs far less to draw, so it barely slows transcription
+  on the processor any more.
+- Short sentences that resemble the style prompt or the vocabulary are no
+  longer dropped as an echo of it.
+- Very loud microphone input is no longer distorted before transcription.
+- The Caps Lock protection is less likely to be bypassed while a transcription
+  keeps the processor busy.
 - Installer: upgrades replace the program folder cleanly, the message about a
   running Epos says to quit it from the tray icon, Start with Windows is only
   offered for a per-user install, Windows 10 or later (64-bit) is required, and

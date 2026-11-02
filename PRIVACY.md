@@ -14,6 +14,15 @@ insertion cannot be confirmed, its text stays in memory for up to 2 minutes so
 you can copy it from the tray menu (Copy last dictation); it is never written
 to disk or to the logs, and the next dictation or quitting Epos clears it.
 
+The log records, for each dictation, the time, the result codes and numbers
+(durations, counts) and the file name of the program that received the text
+(for example Code.exe), never the text (unless you turn on text logging in
+Advanced), a window title or a path. Info > Copy support info shows your Windows
+build, processor, memory, Smart App Control state, microphone name, session
+counts and the last log lines (none while text logging is on); it is copied
+only when you choose it and never contains dictated text, vocabulary or
+corrections.
+
 Model downloads (Hugging Face) and update checks (GitHub, once at startup and
 on request) send connection data including IP addresses to those providers.
 Their own privacy policies apply. There is no telemetry, account or online
