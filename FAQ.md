@@ -56,7 +56,8 @@ or calls in good quality.
 **Languages and hardware?** Epos uses Whisper models and lets you choose the
 dictation language in Settings. Quality varies with language, accent, microphone
 and model, so try it with your own voice during the refund period. Settings is in
-English. Auto uses small on CPU, medium on NVIDIA with a working CUDA runtime.
+English. Auto uses small on CPU, large-v3-turbo on NVIDIA with a working CUDA
+runtime.
 Latency varies by PC. Optional NVIDIA DLLs go in
 `%APPDATA%\EPOS\runtime\cuda12-cudnn9\bin`; they are not shipped.
 
@@ -111,8 +112,9 @@ Investigate actual Defender detections separately.
 - **The first download says it is offline or keeps failing at work.** A firewall
   or proxy that inspects secure connections blocks the download from
   huggingface.co, and Epos does not use the Windows certificate store. Download
-  on another network, or copy the `models--Systran--faster-whisper-small` (or
-  `-medium`) folder from another PC's `%USERPROFILE%\.cache\huggingface\hub` into
+  on another network, or copy the `models--Systran--faster-whisper-small` (or,
+  with NVIDIA, `models--mobiuslabsgmbh--faster-whisper-large-v3-turbo`) folder
+  from another PC's `%USERPROFILE%\.cache\huggingface\hub` into
   the same place on this one; Epos then starts without downloading.
 - **The text did not appear.** If you changed window while Epos was transcribing,
   open the tray menu and choose Copy last dictation within 2 minutes, then paste.

@@ -78,7 +78,16 @@
   longer dropped as an echo of it.
 - Very loud microphone input is no longer distorted before transcription.
 - The Caps Lock protection is less likely to be bypassed while a transcription
-  keeps the processor busy.
+  keeps the processor busy or Windows saves power.
+- With an NVIDIA GPU and a working CUDA runtime, Auto now uses the
+  large-v3-turbo model instead of medium: faster, with fewer wrong words.
+- Long dictations keep their punctuation to the end, and a pause in the middle
+  of a sentence no longer adds a period or a capital letter there.
+- Epos never types "..." for a pause: it becomes a comma or a period, and
+  the first letter after a period, question mark or exclamation mark is a
+  capital.
+- A dictation is no longer lost when the text in the field changes on its own
+  just before Epos pastes (for example a chat box that is still loading).
 - Installer: upgrades replace the program folder cleanly, the message about a
   running Epos says to quit it from the tray icon, Start with Windows is only
   offered for a per-user install, Windows 10 or later (64-bit) is required, and
